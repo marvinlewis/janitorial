@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding : 20px;
+  background-color: blanchedalmond;
+}
+
+img {
+  width : 350px;
+  height : 70vh
+}
+
+a {
+  text-decoration: none;
+  color : black !important
+}
+
+a:hover {
+  text-decoration: overline;
+  background-color: white;
+}
+
+ .nav-div {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: floralwhite;
+
+ }
+
+ .phone-div {
+  font-weight: bold;
+ }
+
+.link-div {
+  display: flex;
+  justify-content: space-between;
+  width : 500px;
+}
+
+.mid-top-cont {
+  margin-top: 20px;
+}
+
+.mid-top-nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.buttons {
+  width: 500px;
+}
+
