@@ -1,12 +1,15 @@
 import React from "react";
 import NavBar from "./NavBar";
+import TopPage from "./TopPage";
 import MidTop from './MidTop';
 
 const WelcomePage = () => {
     return (
         <div>
-            <NavBar/>
+            <div className="body-cont">
             <MidTop/>
+            <TopPage/>
+            </div>
         </div>
     )
 }

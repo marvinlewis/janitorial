@@ -8,11 +8,11 @@ const NavBar = () => {
         <phone>800-940-7119</phone>
       </div> 
       <div className='link-div'>
-        <Link>Home</Link>
-        <Link>Free Quote</Link>
-        <Link>About Us</Link>
-        <Link>Photos</Link>
-        <Link>Careers</Link>
+        <Link to="/">Home</Link>
+        <Link to='/freequote'>Free Quote</Link>
+        <Link to='/aboutus'>About Us</Link>
+        <Link to='/photos'>Photos</Link>
+        <Link to='/careers'>Careers</Link>
       </div>
     </div>
   );

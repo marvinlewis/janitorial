@@ -118,11 +118,6 @@ const MidTop = () => {
     <div className="mid-top-cont">
       <div className="mid-top-img">
         <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-          <CarouselIndicators
-            items={items}
-            activeIndex={activeIndex}
-            onClickHandler={goToIndex}
-          />
           {slides}
           <CarouselControl
             direction="prev"
@@ -135,51 +130,7 @@ const MidTop = () => {
             onClickHandler={next}
           />
         </Carousel>
-        );
-      </div>
-
-      <div className="mid-top-nav">
-        <div className="toggle">
-          <Button
-            className="buttons"
-            color="primary"
-            onClick={toggle}
-            style={{ marginBottom: "1rem" }}
-          >
-            Why MJ Janitorial?
-          </Button>
-          <Collapse isOpen={collapse1}>
-            <Card>
-              <CardBody>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
-              </CardBody>
-            </Card>
-          </Collapse>
-        </div>
-
-        <div className="toggle">
-          <Button
-            className="buttons"
-            color="primary"
-            onClick={toggle2}
-            style={{ marginBottom: "1rem" }}
-          >
-            Testimonials
-          </Button>
-          <Collapse isOpen={collapse2}>
-            <Card>
-              <CardBody>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
-              </CardBody>
-            </Card>
-          </Collapse>
-        </div>
+        
       </div>
     </div>
   );

@@ -1,34 +1,85 @@
 .App {
   text-align: center;
   padding : 20px;
-  background-color: blanchedalmond;
+  background-color:rgb(79, 199, 240);
+}
+
+.body-cont{
+  padding: 40px;
+}
+
+label {
+  color:dimgrey;
+  margin: 30px;
+  font-size: x-large;
+}
+
+span {
+  background-color: rosybrown;
+  text-decoration: underline;
+  cursor: default;
+}
+
+
+h2 {
+  margin : 10px;
+}
+
+
+h2:hover {
+  color: rosybrown;
+  cursor: default;
+}
+
+
+#quote-h2 {
+  color: dimgrey;
+  margin-top: 30px;
+}
+
+
+h1 {
+  box-shadow: blanchedalmond 2px -2px 20px;
+  background-color : white;
+  cursor: default;
+}
+
+li {
+  list-style: square;
+  border-bottom: rosybrown 6px solid;
+  font-size: x-large;
+  color: whitesmoke
 }
 
 img {
   width : 350px;
-  height : 70vh
+  height : 70vh;
+  margin: 20px
 }
 
 a {
   text-decoration: none;
-  color : black !important
+  color : white !important
 }
 
 a:hover {
   text-decoration: overline;
-  background-color: white;
+  background-color: black;
+  box-shadow: rgb(240, 219, 193) 2px -2px 10px;
 }
 
  .nav-div {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   background-color: floralwhite;
+   background-color: dimgray;
+   color: white;
 
  }
 
  .phone-div {
   font-weight: bold;
+  cursor: default
  }
 
 .link-div {
@@ -39,6 +90,9 @@ a:hover {
 
 .mid-top-cont {
   margin-top: 20px;
+  background-color: rgb(79, 199, 240) ;
+  box-shadow: rgb(240, 219, 193) 2px -2px 10px;
+  padding: 20px;
 }
 
 .mid-top-nav {
@@ -46,9 +100,134 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  background-color: rosybrown;
 }
 
 .buttons {
+  margin-top: 20px;
   width: 500px;
 }
 
+.toggle {
+  background-color: rgb(79, 199, 240);
+}
+
+.top-page-box {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: rgb(79, 199, 240);
+}
+
+.welcome-box {
+  margin: 20px;
+  border-bottom: rosybrown 6px solid
+}
+
+.mission-box {
+  margin: 20px;
+  border-bottom: rosybrown 6px solid;
+}
+
+.list-items {
+  width: 500px;
+  margin: 20px;
+  background-color: rgb(79, 199, 240);
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.freequote-form-cont {
+  width: 500px;
+}
+
+.freequote-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.white-square {
+  width: 200px;
+  background-color: rosybrown;
+}
+
+.list-item-cont {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.clean {
+  position: relative;
+  right: 500px;
+  background-color: rosybrown;
+}
+
+.clean:hover {
+  color: black;
+  cursor: default;
+}
+
+.frontpage-h2 {
+  width: 300px;
+  position: relative;
+  left: 510px;
+  color: aliceblue;
+}
+
+.statement-m {
+  text-transform: uppercase;
+  line-height: 2.5;
+  font-size: x-large;
+  
+}
+
+.statement-w {
+  text-transform: uppercase;
+  line-height: 2;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+.aboutus-cont {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.owner-cont{
+  font-size: x-large;
+  line-height: 2;
+  width: 900px;
+}
+
+.contact-cont {
+  line-height: 8;
+  border-top: rosybrown dotted 6px;
+  border-bottom: rosybrown dotted 6px;
+  font-size: x-large;
+}
+
+.location-h2 {
+  border-top: rosybrown dotted 6px;
+}
+
+.photos-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photos-h2 {
+  width: 400px;
+  position: relative;
+  left: 550px;
+  margin:40px
+}
+
+.careers-cont {
+  height: 75.90vh;
+  font-size: x-large;
+  padding: 30px;
+}
