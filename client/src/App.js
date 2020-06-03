@@ -4,6 +4,9 @@ import FreeQuote from "./components/WelcomePage/FreeQuote";
 import AboutUs from "./components/aboutus/AboutUs";
 import Photos from './components/photos/Photos';
 import Careers from './components/careers/Careers';
+import Login from './components/login/Login';
+import Admin from './components/login/Admin';
+import PrivateRoute from "./components/login/PrivateRoute";
 import { Route } from "react-router-dom";
 import { Badge } from 'reactstrap';
 import './App.css';
@@ -35,6 +38,12 @@ function App() {
       <Route path='/careers'>
       <Careers/>
       </Route>
+
+      <Route path='/login'>
+      <Login/>
+      </Route>
+
+      <PrivateRoute exact path="/admin" component={Admin}/>
     </div>
   );
 }

@@ -15,16 +15,16 @@ const Photos = () => {
         <>
         <h2 className='photos-h2'>Photos Of Our Hard Work!</h2>
         <div className='photos-cont'>
-            <img src={hero}/>
-            <img src={item1}/>
-            <img src={item2}/>
-            <img src={item3}/>
-            <img src={item4}/>
-            <img src={item5}/>
-            <img src={item6}/>
-            <img src={item7}/>
-            <img src={item9}/>
-            <img src={item10}/>
+            <img src={hero} alt='logo'/>
+            <img src={item1}alt='work'/>
+            <img src={item2}alt='work'/>
+            <img src={item3}alt='work'/>
+            <img src={item4}alt='work'/>
+            <img src={item5}alt='work'/>
+            <img src={item6}alt='work'/>
+            <img src={item7}alt='work'/>
+            <img src={item9}alt='work'/>
+            <img src={item10}alt='work'/>
         </div>
         </>
     )

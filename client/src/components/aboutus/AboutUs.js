@@ -15,7 +15,7 @@ const AboutUs = () => {
                     </address>
             </div>
             <div className='owner-cont'>
-                <img src={item7}/>
+                <img src={item7} alt='work'/>
                 <p>Louis Chase is a Los Angeles born and raised entrepreneur. He and his family have dedicated their lives to establishing and maintaing this company by being a stakehold in the community and associating their work with excellence.</p>
             </div>
         </div>

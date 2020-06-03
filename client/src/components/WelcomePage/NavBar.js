@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className='nav-div'>
       <div className="phone-div">
-        <phone>800-940-7119</phone>
+        <p>800-940-7119</p>
       </div> 
       <div className='link-div'>
         <Link to="/">Home</Link>
