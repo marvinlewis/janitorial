@@ -16,13 +16,15 @@ const Login = () => {
             ...data,
             [e.target.name] : e.target.value
         })
+        
     }
 
     const handleSubmit = e => {
         e.preventDefault();
         axios.post(`http://localhost:5000/api/login`, data)
         .then(res => {
-        localStorage.setItem("token", res.data.payload);
+        console.log(res);
+        localStorage.setItem("token", res.data.token);
         history.push("/admin")
         })
         .catch(err => {

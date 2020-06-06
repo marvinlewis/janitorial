@@ -7,6 +7,8 @@ import Careers from './components/careers/Careers';
 import Login from './components/login/Login';
 import Admin from './components/login/Admin';
 import PrivateRoute from "./components/login/PrivateRoute";
+import Quotes from './components/login/admin/Quotes';
+import Jobs from './components/login/admin/Jobs'
 import { Route } from "react-router-dom";
 import { Badge } from 'reactstrap';
 import './App.css';
@@ -44,6 +46,13 @@ function App() {
       </Route>
 
       <PrivateRoute exact path="/admin" component={Admin}/>
+
+      <Route path='/admin/quotes'>
+                <Quotes/>
+            </Route>
+      <Route path='/admin/jobs'>
+        <Jobs/>
+      </Route>
     </div>
   );
 }

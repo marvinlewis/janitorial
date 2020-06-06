@@ -4,6 +4,12 @@ import { useHistory } from "react-router-dom";
 import axios from 'axios';
 
 const FreeQuote = () => {
+
+    const date = new Date;
+    const date1 = date.getMonth();
+    const date2 = date.getDate();
+    const date3 = date.getFullYear();
+
     const [ input, setInput ] = useState({
       name: '',
       company: '',
@@ -11,6 +17,7 @@ const FreeQuote = () => {
       location: '',
       square: '',
       type: '',
+      time_of_request: `${date1}/${date2}/${date3}`,
       description: ''
     })
 

@@ -169,9 +169,7 @@ a:hover {
 }
 
 .frontpage-h2 {
-  width: 300px;
-  position: relative;
-  left: 510px;
+ 
   color: aliceblue;
 }
 
@@ -230,4 +228,38 @@ a:hover {
   height: 75.90vh;
   font-size: x-large;
   padding: 30px;
+}
+
+.admin_cont {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 350px;
+}
+
+.quotes-admin-cont {
+  background-color: lightsalmon;
+  width: 50%;
+  height: 50vh;
+}
+
+.completed-admin-cont {
+  width: 50%;
+  background-color: lightseagreen;
+}
+
+.blank1-admin-cont {
+  width: 50%;
+  background-color: lightyellow;
+  height: 50vh;
+}
+
+.blank2-admin-cont {
+  width: 50%;
+  background-color: mintcream;
+}
+
+.admin-quotes-li {
+ border-bottom: none; 
 }
